@@ -1,5 +1,4 @@
 def my_select(collection)
- if block_given?
     i = 0
 array = []
     while i < collection.length
@@ -8,7 +7,5 @@ array = []
     end
 
     array
-  else
-    puts "Hey! No block was given!"
   end
 end
